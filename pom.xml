@@ -10,11 +10,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jacoco.output>${project.reporting.outputDirectory}/jacoco-aggregate</jacoco.output>
+        <jacoco.outputDirectory>${project.reporting.outputDirectory}/jacoco-aggregate</jacoco.outputDirectory>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>arothuis-hu</sonar.organization>
         <sonar.projectKey>arothuis-hu_cc-example</sonar.projectKey>
-        <sonar.coverage.jacoco.xmlReportPaths>${jacoco.output}</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.jacoco.xmlReportPaths>${jacoco.outputDirectory}</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <dependencies>
@@ -76,7 +76,7 @@
                         </goals>
                         <configuration>
                             <dataFile>${project.build.directory}/coverage-reports/jacoco.exec</dataFile>
-                            <outputDirectory>${jacoco.output}</outputDirectory>
+                            <outputDirectory>${jacoco.outputDirectory}</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
