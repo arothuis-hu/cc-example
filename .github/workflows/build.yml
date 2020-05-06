@@ -30,3 +30,6 @@ jobs:
           flags: unittests
           name: codecov-umbrella
           fail_ci_if_error: true
+          
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@v1.2
