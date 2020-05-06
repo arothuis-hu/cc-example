@@ -15,6 +15,6 @@ public class ShippingCosts implements ShippingCostsStrategy {
             return basePrice.add(new BigDecimal(15));
         }
 
-        return basePrice.add(new BigDecimal(10));
+        return basePrice.add(BigDecimal.TEN);
     }
 }

@@ -15,7 +15,7 @@ public class ReductionPricing implements PricingStrategy {
         }
 
         if (customer.isSenior()) {
-            percentage = percentage.subtract(new BigDecimal(10));
+            percentage = percentage.subtract(BigDecimal.TEN);
         }
 
         return basePrice

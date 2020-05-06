@@ -2,7 +2,7 @@ package nl.arothuis.bep.domain;
 
 import java.math.BigDecimal;
 
-//@SuppressWarnings("PMD.UnusedPrivateField")
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class Product {
     private final String name;
     private final Integer quantity;
