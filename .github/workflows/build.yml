@@ -32,4 +32,4 @@ jobs:
           fail_ci_if_error: true
           
       - name: SonarCloud Scan
-        run: mvn org.sonarsource.scanner.maven:sonar
+        run: mvn sonar:sonar
