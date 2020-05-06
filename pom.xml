@@ -10,7 +10,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jacoco.outputDirectory>${project.reporting.outputDirectory}/jacoco-aggregate</jacoco.outputDirectory>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>arothuis-hu</sonar.organization>
         <sonar.projectKey>arothuis-hu_cc-example</sonar.projectKey>
