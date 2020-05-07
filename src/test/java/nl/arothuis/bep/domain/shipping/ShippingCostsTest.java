@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ShippingPricingTest {
+public class ShippingCostsTest {
     @ParameterizedTest
     @MethodSource("shippingCostsExamples")
     @DisplayName("calculate price with shipping costs based on customer's region")
