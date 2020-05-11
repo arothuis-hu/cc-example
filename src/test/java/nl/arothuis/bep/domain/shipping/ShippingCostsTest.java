@@ -3,8 +3,6 @@ package nl.arothuis.bep.domain.shipping;
 import nl.arothuis.bep.domain.Customer;
 import nl.arothuis.bep.domain.Region;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.DisplayNameGeneration;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
