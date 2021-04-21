@@ -22,14 +22,6 @@ jobs:
 
       - name: Build, test, report
         run: mvn -B package --file pom.xml
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
-        with:
-          file: ./target/site/jacoco/jacoco.xml
-          flags: unittests
-          name: codecov-umbrella
-          fail_ci_if_error: true
           
       - name: SonarCloud Scan
         run: mvn sonar:sonar
